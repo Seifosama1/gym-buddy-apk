@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+gym-mobile-app/node_modules/
+jimbuddy-android/node_modules/
+
+# Build outputs
+jimbuddy-android/android/app/build/
+jimbuddy-android/android/build/
+jimbuddy-android/.gradle/
+*.apk
+*.aab
+
+# Android SDK (large, not needed in repo)
+jimbuddy-android/.android-sdk/
+
+# Environment / secrets
+.env
+.env.local
+vapid-keys.json
+set-secrets.js
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/settings.json
+.cursor/
+
+# Expo
+gym-mobile-app/.expo/
